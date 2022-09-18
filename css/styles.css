@@ -326,12 +326,10 @@ button {
 }
 
 .feature-card {
-    width: 270px;
     height: 120px;
     margin-bottom: 30px;
     background-color: var(--button-color);
     border-radius: 4px;
-    /* padding: 25px 100px; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -387,7 +385,7 @@ button {
 
 .card-title {
     padding-top: 30px;
-    /* padding-bottom: 30px; */
+    padding-bottom: 30px;
     text-align: center;
 }
 
@@ -411,12 +409,10 @@ button {
     padding: 0;
     list-style: none;
     margin-top: 16px;
-    margin-bottom: 30px;
-    width: 206px;
     height: 44px;
     margin-left: auto;
     margin-right: auto;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     gap: 10px;
 }
@@ -651,10 +647,10 @@ margin-bottom: 20px;}
 
 .socials-name {
     display: flex;
-    width: 206px;
     height: 44px;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    gap: 10px;
 }
 
 .socials-footer {
